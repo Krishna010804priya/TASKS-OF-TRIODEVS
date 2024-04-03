@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background: #fffc56;
+} 
+
+header {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 50px;
+ }
+
+.wrapper {
+    padding: 5px;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+.column {
+    flex: 1;
+    border: 1px solid #666;
+    margin: 2px;
+    padding: 20px;
+    background: #3af4d5;
+    transition: 0.3s;
+}

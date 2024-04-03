@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main">
+    <div class="register">
+    <h3>COLLEGE APPLICATION FORM</h3>
+    <form  id="register" action="post">
+        <div>
+        <label for="fn">Enter first name:</label><br><br>
+        <input type="text" name="username" id="fn" class="boxsize" placeholder="Enter first name" autofocus>
+        </div>
+        <br>
+        <div>
+        <labe for="ln">Enter last name:</labe><br><br>
+        <input type="text" id="ln" class="boxsize"  placeholder="Enter last name">
+        </div>
+        <br>
+        <div>
+        <label for="date">Enter the Date of form filling:</label><br><br>
+        <input type="date" id="date" class="boxsize">
+       </div> 
+       <br>
+       <div>
+        <label for="role">Enter Role Number:</label><br><br>
+        <input type="number" id="role" class="boxsize">
+       </div>
+       <br>
+       <div>
+        <label for="gender">Gender:</label>
+        Male <input type="radio" id="gender">
+        Female <input type="radio" id="gender">
+        Others <input type="radio" id="gender">
+      </div>
+      <br>
+      <div>
+        <label for="email">Enter Email Address:</label><br><br>
+        <input type="text" id="email"  class="boxsize" placeholder="Email">
+      </div>
+      <br>
+      <div>
+        <label for="ph">Enter Student Mobile Number:</label><br><br>
+        <input type="number" id="ph" class="boxsize" placeholder="Mobile number">
+      </div>
+      <br>
+      <div>
+        <label for="department">Department:</label><br><br>
+        <select  id="department" >
+            <option value="IT">Information Technology</option>
+            <option value="CS">Coputer Science</option>
+            <option value="AIDS">Artificial Intelligence and Data Science</option>
+            <option value="CS">Cyber Security</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="intro">Write about youself:</label><br><br>
+        <textarea name="mytext" id="intro" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <br>
+      <div>
+        <input type="submit" value="Submit Now" id="submit">
+        <input type="reset" value="Reset Now" id="reset">
+      </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
